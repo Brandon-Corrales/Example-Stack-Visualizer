@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Estructura Stack</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo .CSS para estilos -->
+</head>
+<body>
+    <div class="center-content"> <!-- Contenedor principal centrado verticalmente y horizontalmente -->
+        <div class="container"> <!-- Contenedor que limita el ancho del contenido -->
+            <h1>Visual Stack</h1> <!-- Título de la página -->
+            <div class="stack"> <!-- Contenedor que representa visualmente la pila -->
+                <div id="stack-container"></div> <!-- Contenedor donde se mostrarán los elementos de la pila -->
+            </div>
+            <div class="controls"> <!-- Contenedor para botones de control -->
+                <button onclick="pushItem()">Push</button> <!-- Botón para agregar un elemento a la pila -->
+                <button onclick="popItem()">Pop</button> <!-- Botón para eliminar un elemento de la pila -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
